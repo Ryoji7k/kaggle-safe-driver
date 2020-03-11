@@ -1,0 +1,11 @@
+- name: パッケージ
+  apt: name={{ item }} state=latest update_cache=yes
+  become: yes
+  with_items:
+    - git
+    - vim
+    - emacs
+    - build-essential
+    - tmux
+    - htop
+    - https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
