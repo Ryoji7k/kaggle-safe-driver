@@ -7,3 +7,10 @@
 
 ## その他
 - 処理時間が掛かるものについては `tmux` でsession管理すること
+- Emacs（spacemacs）設定
+    - package install
+        - company
+        - yasnippet
+    - .spacemacsの下記に設定を書き込む
+        - dotspacemacs-additional-packages
+        - defun dotspacemacs/user-config
