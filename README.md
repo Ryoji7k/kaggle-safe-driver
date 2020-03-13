@@ -14,3 +14,5 @@
     - .spacemacsの下記に設定を書き込む
         - dotspacemacs-additional-packages
         - defun dotspacemacs/user-config
+- パッケージ追加
+    - tqdm `pip install tqdm` 
