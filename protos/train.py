@@ -89,7 +89,7 @@ if __name__ == '__main__':
     logger.info('minimum params: {}'.format(min_params))
     logger.info('minimum gini: {}'.format(min_score))
 
-    clf = LogisticRegression(random_state=0, solver='liblinear')
+    clf = LogisticRegression(**min_params, solver='liblinear')
     clf.fit(x_train, y_train)
 
     logger.info('train end')
